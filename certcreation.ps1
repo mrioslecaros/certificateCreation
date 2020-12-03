@@ -175,8 +175,8 @@ SAN=$dnsstring
 	##############################################
 
 	# Eg. User name="admin", Password="admin" for this code sample.
-	$user =  userName###############change user
-	$pass =  Password###############change password
+	$user =  'userName'###############change user
+	$pass =  'P455w0rd'###############change password
 
 	# Build auth header
 	$base64AuthInfo = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $user, $pass)))
